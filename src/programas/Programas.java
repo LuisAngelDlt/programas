@@ -24,7 +24,7 @@ public class Programas {
         float b = sc.nextFloat();
         float area = a * b;
         System.out.println("El area del rectangulo es = " + area);
-        System.out.println("gg");
+        
     }
     
 }
