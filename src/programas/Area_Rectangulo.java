@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author PC 10
  */
-public class Programas {
+public class Area_Rectangulo {
 
     /**
      * @param args the command line arguments
