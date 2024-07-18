@@ -24,7 +24,7 @@ public class Calcular_Promedio {
         System.out.println("Dame la primer calificacion\n");
         float c3 = sc.nextFloat();
         float ct = (c1+c2+c3)/3;
-        System.out.println("Tu calificacion total es "+ ct );
+        System.out.println("Tu calificacion final es "+ ct );
     }
     
 }
