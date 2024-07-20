@@ -22,7 +22,7 @@ public class conversor_moneda {
         System.out.println("Conversor de monedas\n");
         System.out.println("Ingresa la cantidad que desea convertir a la moneda que selecione ");
         c = sc.nextDouble();
-        System.out.println("A que moneda desea covertir la cantida ingresada ");
+        System.out.println("A que moneda desea covertir la cantida ingresada ?");
         System.out.println("1-. Dolar(USD)");
         System.out.println("2-. Euro(EUR)");
         System.out.println("3-. Bath(THB)");
@@ -80,7 +80,7 @@ public class conversor_moneda {
                 System.out.println("La cantidad ingreda de pesos es "+ c +" y en Peso Argentino es "+ cp);
             break;
             default: 
-                System.out.println("Ingrese una opcion correcta");
+                System.out.println(" Ingrese una opcion correcta");
         }
         
     }
