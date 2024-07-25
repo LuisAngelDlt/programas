@@ -1,0 +1,34 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ingrese la cantidad de números a ingresar:");
+                int cantidad = sc.nextInt();
+
+                int mayores = 0;
+                int menores = 0;
+                int iguales = 0;
+
+                for (int i = 0; i < cantidad; i++) {
+                    System.out.print("Ingrese el número " + (i + 1) + ": ");
+                    int numero = sc.nextInt();
+
+                    if (numero > 0) {
+                        mayores++;
+                        
+                    } else if (numero < 0) {
+                        menores++;
+                        
+                    } else {
+                        iguales++;
+                    }
+                }
+                        System.out.println("Cantidad de números mayores que 0: " + mayores);
+                        System.out.println("Cantidad de números menores que 0: " + menores);
+                        System.out.println("Cantidad de números iguales a 0: " + iguales);
+    }
+}

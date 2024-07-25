@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Ingresa un numero del 1 al 12");
+    int mes = scanner.nextInt();
+    String estación;
+    switch (mes) {
+      case 1:
+      case 2:
+      case 12:
+        System.out.println("la estacion del año es: Invierno");
+        break;
+
+      case 3:
+      case 4:
+      case 5:
+        System.out.println("la estacion del año es: Primavera");
+        break;
+
+      case 6:
+      case 7:
+      case 8:
+        System.out.println("la estacion del año es: Verano");
+        break;
+
+      case 9:
+      case 10:
+      case 11:
+        System.out.println("la estacion del año es: Otoño");
+        break;
+
+      default:
+        System.out.println("Opcion no valida");
+
+    }
+  }
+}
